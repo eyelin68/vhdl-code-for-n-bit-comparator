@@ -1,0 +1,128 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1702411017
+VDO3UalboZC`gKE@DCne`70
+04 20 26 work test_comparator_vhdl test_comparator_structural 1
+=1-3c7c3f5d522e-6578bb09-82-6b40
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1702720821
+V;DU5MV0Oba^z2nSbh;]]Q2
+04 20 10 work test_comparator_vhdl test_bench 1
+=1-3c7c3f5d522e-657d7535-142-4374
+R1
+R2
+n@_opt1
+R3
+R0
+Ecomparator_vhdl
+Z4 w1702720807
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 279
+Z7 dC:/Users/Ailin/Desktop/Uni/vhdl project/vhdl project
+Z8 8comparator_VHDL.vhd
+Z9 Fcomparator_VHDL.vhd
+l0
+L5 1
+V>:R[An0YT=N`mj^Ch5A>M1
+!s100 h>T?>7d7mnFoA;6fgdZ7d2
+Z10 OL;C;2020.4;71
+32
+Z11 !s110 1703045928
+!i10b 1
+Z12 !s108 1703045928.000000
+Z13 !s90 -reportprogress|300|comparator_VHDL.vhd|
+Z14 !s107 comparator_VHDL.vhd|
+!i113 0
+Z15 tExplicit 1 CvgOpt 0
+Acomparator_structural
+R5
+R6
+DEx4 work 15 comparator_vhdl 0 22 >:R[An0YT=N`mj^Ch5A>M1
+!i122 279
+l15
+L13 42
+Vl]zQ?W?7i5S>?@CcizN_h2
+!s100 O`:1Zj[h8iCYWFG`o>P8@1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+Etest_comparator_vhdl
+Z16 w1703015358
+R5
+R6
+!i122 280
+R7
+Z17 8test_comparator_VHDL.vhd
+Z18 Ftest_comparator_VHDL.vhd
+l0
+L5 1
+VdehCEN3@_Skk>hbZOeVP40
+!s100 IgdhnUli<?`m@Uaj08UfJ2
+R10
+32
+R11
+!i10b 1
+R12
+Z19 !s90 -reportprogress|300|test_comparator_VHDL.vhd|
+Z20 !s107 test_comparator_VHDL.vhd|
+!i113 0
+R15
+Atest_bench
+R5
+R6
+Z21 DEx4 work 20 test_comparator_vhdl 0 22 dehCEN3@_Skk>hbZOeVP40
+!i122 280
+l23
+Z22 L8 53
+Z23 V=gfHGEOcm5G?Qj@OB:8[U1
+Z24 !s100 onNmIBh2POmRkF;ReW8I?1
+R10
+32
+R11
+!i10b 1
+R12
+R19
+R20
+!i113 0
+R15
+Atest_comparator_structural
+R5
+R6
+DEx4 work 20 test_comparator_vhdl 0 22 fF;Do;A^^9k>j9UfKnQgJ1
+!i122 61
+l19
+L7 34
+VZ`mAX?JS@ag7>4H5l?Oc>0
+!s100 Q]3GOHDR[k?^of3nXMHVE3
+R10
+32
+!s110 1702410753
+!i10b 1
+!s108 1702410752.000000
+R19
+R20
+!i113 0
+R15
+w1702409250

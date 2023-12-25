@@ -1,0 +1,60 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity test_comparator_VHDL is
+end test_comparator_VHDL;
+
+architecture test_bench of test_comparator_VHDL is
+
+    component comparator_VHDL
+        generic (n: positive := 4);
+        port (A, B: in std_logic_vector(n-1 downto 0);
+              A_less_B, A_equal_B, A_greater_B: out std_logic);
+    end component;
+
+
+   signal A : std_logic_vector(3 downto 0) := (others => '0');
+   signal B : std_logic_vector(3 downto 0) := (others => '0');
+
+
+    signal A_less_B,A_equal_B, A_greater_B: std_logic :='0';
+
+begin
+
+    uut: comparator_VHDL
+        generic map (n => 4)
+        port map (A => A, B => B, A_less_B => A_less_B, A_equal_B => A_equal_B, A_greater_B =>A_greater_B);
+
+
+    stim_proc: process
+    begin
+	
+	A<="0010";  --num1 =2
+	B<="1001"; --num2 =9
+	wait for 10 ns;
+
+	A<="1001";  --num1 =9
+	B<="0010";   --num2 =2
+	wait for 10 ns;
+
+	A<="1010";  --num1 =10
+	B<="1010";  --num2 =10
+	wait for 10 ns;
+
+        wait;
+    end process;
+
+    monitor_proc: process
+    begin
+        wait for 1 ns;
+
+        report "Test Results:";
+        report "A_less_B = " & std_logic'image(A_less_B);
+        report "A_equal_B = " & std_logic'image(A_equal_B);
+        report "A_greater_B = " & std_logic'image(A_greater_B);
+
+        wait;
+    end process;
+
+end test_bench;

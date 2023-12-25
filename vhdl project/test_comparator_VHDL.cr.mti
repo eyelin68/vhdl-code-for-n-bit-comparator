@@ -1,0 +1,17 @@
+{C:/Users/Ailin/Desktop/Uni/vhdl project/vhdl project/test_comparator_VHDL.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/Ailin/Desktop/Uni/vhdl project/vhdl project/test_comparator_VHDL.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_comparator_VHDL
+-- Compiling architecture test_bench of test_comparator_VHDL
+
+} {} {}} {C:/Users/Ailin/Desktop/Uni/vhdl project/vhdl project/comparator_VHDL.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/Ailin/Desktop/Uni/vhdl project/vhdl project/comparator_VHDL.vhd}
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator_VHDL
+-- Compiling architecture comparator_structural of comparator_VHDL
+
+} {} {}}
